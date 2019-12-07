@@ -13,7 +13,7 @@
 #include "d3d9/MenuManager/Text.h"
 #include "d3d9/MenuManager/Menu.h"
 #include "d3d9/MenuManager/ContextMenu.h"
-#include "IniFiles.h"
+#include "IniFiles.hpp"
 #include "translate.h"
 
 class translator : public QObject

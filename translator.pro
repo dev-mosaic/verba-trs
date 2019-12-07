@@ -112,7 +112,7 @@ HEADERS +=\
 	CGame/sampfuncs.h \
 	RakNet/BitStream.h \
 	RakNet/RakClient.h \
-	IniFiles.h \
+	IniFiles.hpp \
 	translate.h
 
 LIBS += -ld3d9 \
