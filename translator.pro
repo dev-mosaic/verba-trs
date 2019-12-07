@@ -8,8 +8,7 @@ TARGET_EXT = .asi
 TEMPLATE = lib
 CONFIG += dll c++14
 CONFIG -= UNICODE
-QMAKE_LFLAGS += -static -static-libgcc -static-libstdc++ -Wl,--strip-all -Os -ffast-math  -Wl,--version-script='/home/sr-tream/Projects/notexport'
-
+QMAKE_LFLAGS += -static -static-libgcc -static-libstdc++ -Wl,--strip-all -Os -ffast-math
 # Generate .map file
 #QMAKE_LFLAGS = -Wl,-Map=translator.map
 
