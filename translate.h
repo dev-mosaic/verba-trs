@@ -2,7 +2,7 @@
 #define TRANSLATE_H
 
 #include "loader.h"
-#include "IniFiles.h"
+#include "IniFiles.hpp"
 
 class translate
 {
